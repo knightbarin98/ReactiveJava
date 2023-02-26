@@ -8,6 +8,8 @@ public class FunctionPractice {
 	public static void main(String[] args) {
 
 		List<String> list = List.of("Kit", "Kat", "Shake");
+		
+//		list.stream().forEach(System.out::println); 
 
 		Function<String, Integer> function = e -> e.length();
 
